@@ -108,6 +108,23 @@ namespace HDV_3.Controllers
             return Ok("Product updated successfully.");
         }
 
+
+        // PUT /products/updatesl/{id}
+        [HttpPut]
+        [Route("products/updatesl/{id:int}")]
+        public IHttpActionResult UpdateProductsl(int id, Product product)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("UPDATE products SET quantity = @quantity, updated_at = GETDATE() WHERE id = @id", connection);
+                command.Parameters.AddWithValue("@id", id);
+                command.Parameters.AddWithValue("@quantity", product.Quantity);
+                command.ExecuteNonQuery();
+            }
+            return Ok("Product updated quantity successfully.");
+        }
+
         // DELETE /products/{id}
         [HttpDelete]
         [Route("products/{id:int}")]
