@@ -71,7 +71,36 @@ namespace HDV_4.Controllers
             }
         }
 
-        
+        [HttpGet]
+        [Route("order_items")]
+        public IHttpActionResult GetOrderItemsByOrderId(int orderId)
+        {
+            var orderItems = new List<OrderItem>();
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT * FROM order_items WHERE order_id = @orderId", connection);
+                command.Parameters.AddWithValue("@orderId", orderId);
+                var reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    orderItems.Add(new OrderItem
+                    {
+                        Id = (int)reader["id"],
+                        OrderId = (int)reader["order_id"],
+                        ProductId = (int)reader["product_id"],
+                        ProductName = reader["product_name"].ToString(),
+                        Quantity = (int)reader["quantity"],
+                        UnitPrice = (decimal)reader["unit_price"],
+                        TotalPrice = (decimal)reader["total_price"]
+                    });
+                }
+            }
+            return Ok(orderItems);
+        }
+
+
+
         // POST /order_items
         [HttpPost]
         [Route("order_items")]
@@ -153,6 +182,222 @@ namespace HDV_4.Controllers
                     transaction.Commit();
 
                     return Ok("Order item created successfully and total amount updated.");
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    return InternalServerError(ex);
+                }
+            }
+        }
+
+        // PUT /order_items/{orderId}/product/{productId}/quantity
+        [HttpPut]
+        [Route("order_items/{orderId:int}/product/{productId:int}/quantity")]
+        public IHttpActionResult UpdateOrderItemQuantity(int orderId, int productId, [FromBody] OrderItem updatedDetails)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var transaction = connection.BeginTransaction();
+
+                try
+                {
+                    // Lấy thông tin chi tiết sản phẩm từ bảng order_items
+                    OrderItem orderItem = null;
+                    var getOrderItemCommand = new SqlCommand(
+                        "SELECT * FROM order_items WHERE order_id = @orderId AND product_id = @productId",
+                        connection, transaction);
+                    getOrderItemCommand.Parameters.AddWithValue("@orderId", orderId);
+                    getOrderItemCommand.Parameters.AddWithValue("@productId", productId);
+
+                    using (var reader = getOrderItemCommand.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            orderItem = new OrderItem
+                            {
+                                Id = (int)reader["id"],
+                                OrderId = (int)reader["order_id"],
+                                ProductId = (int)reader["product_id"],
+                                ProductName = reader["product_name"].ToString(),
+                                Quantity = (int)reader["quantity"],
+                                UnitPrice = (decimal)reader["unit_price"],
+                                TotalPrice = (decimal)reader["total_price"]
+                            };
+                        }
+                    }
+
+                    if (orderItem == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // Cập nhật số lượng sản phẩm trong bảng order_items
+                    var updateQuantityCommand = new SqlCommand(
+                        "UPDATE order_items SET quantity = @quantity " +
+                        "WHERE order_id = @orderId AND product_id = @productId",
+                        connection, transaction);
+                    updateQuantityCommand.Parameters.AddWithValue("@quantity", updatedDetails.Quantity);
+                    
+                    updateQuantityCommand.Parameters.AddWithValue("@orderId", orderId);
+                    updateQuantityCommand.Parameters.AddWithValue("@productId", productId);
+                    updateQuantityCommand.ExecuteNonQuery();
+
+                    // Cập nhật tổng tiền của đơn hàng
+                    var updateOrderCommand = new SqlCommand(
+                        "UPDATE orders SET total_amount = (SELECT SUM(total_price) FROM order_items WHERE order_id = @orderId) WHERE id = @orderId",
+                        connection, transaction);
+                    updateOrderCommand.Parameters.AddWithValue("@orderId", orderId);
+                    updateOrderCommand.ExecuteNonQuery();
+
+                    // Cập nhật số lượng sản phẩm trong kho
+                    int currentQuantity;
+                    using (var getProductClient = new HttpClient())
+                    {
+                        getProductClient.BaseAddress = new Uri("https://localhost:44361/");
+                        getProductClient.DefaultRequestHeaders.Authorization =
+                            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", Request.Headers.Authorization.Parameter);
+
+                        var productResponse = getProductClient.GetAsync($"products/{productId}").Result;
+                        if (!productResponse.IsSuccessStatusCode)
+                        {
+                            throw new Exception($"Failed to fetch product details for ProductId: {productId}. Status: {productResponse.StatusCode}");
+                        }
+
+                        var product = productResponse.Content.ReadAsAsync<Product>().Result;
+                        currentQuantity = product.Quantity;
+                    }
+
+                    // Tính toán số lượng cập nhật
+                    int updatedQuantity = currentQuantity - (updatedDetails.Quantity - orderItem.Quantity);
+
+                    using (var updateProductClient = new HttpClient())
+                    {
+                        updateProductClient.BaseAddress = new Uri("https://localhost:44361/");
+                        updateProductClient.DefaultRequestHeaders.Authorization =
+                            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", Request.Headers.Authorization.Parameter);
+
+                        var updateProductResponse = updateProductClient.PutAsJsonAsync($"products/updatesl/{productId}", new { Quantity = updatedQuantity }).Result;
+                        if (!updateProductResponse.IsSuccessStatusCode)
+                        {
+                            throw new Exception($"Failed to update product quantity for ProductId: {productId}. Status: {updateProductResponse.StatusCode}");
+                        }
+                    }
+
+                    // Commit transaction
+                    transaction.Commit();
+
+                    return Ok("Order item quantity updated successfully.");
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    return InternalServerError(ex);
+                }
+            }
+        }
+
+
+        // PUT /order_items/{orderId}/product/{productId}/details
+        [HttpPut]
+        [Route("order_items/{orderId:int}/product/{productId:int}/details")]
+        public IHttpActionResult UpdateOrderItemDetails(int orderId, int productId, [FromBody] OrderItem updatedDetails)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var transaction = connection.BeginTransaction();
+
+                try
+                {
+                    // Lấy thông tin sản phẩm từ bảng order_items
+                    OrderItem orderItem = null;
+                    var getOrderItemCommand = new SqlCommand(
+                        "SELECT * FROM order_items WHERE order_id = @orderId AND product_id = @productId",
+                        connection, transaction);
+                    getOrderItemCommand.Parameters.AddWithValue("@orderId", orderId);
+                    getOrderItemCommand.Parameters.AddWithValue("@productId", productId);
+
+                    using (var reader = getOrderItemCommand.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            orderItem = new OrderItem
+                            {
+                                Id = (int)reader["id"],
+                                OrderId = (int)reader["order_id"],
+                                ProductId = (int)reader["product_id"],
+                                ProductName = reader["product_name"].ToString(),
+                                Quantity = (int)reader["quantity"],
+                                UnitPrice = (decimal)reader["unit_price"],
+                                TotalPrice = (decimal)reader["total_price"]
+                            };
+                        }
+                    }
+
+                    if (orderItem == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // Cập nhật thông tin sản phẩm trong bảng order_items
+                    var updateDetailsCommand = new SqlCommand(
+                        "UPDATE order_items SET quantity = @quantity, unit_price = @unitPrice " +
+                        "WHERE order_id = @orderId AND product_id = @productId",
+                        connection, transaction);
+                    updateDetailsCommand.Parameters.AddWithValue("@quantity", updatedDetails.Quantity);
+                    updateDetailsCommand.Parameters.AddWithValue("@unitPrice", updatedDetails.UnitPrice);
+                    
+                    updateDetailsCommand.Parameters.AddWithValue("@orderId", orderId);
+                    updateDetailsCommand.Parameters.AddWithValue("@productId", productId);
+                    updateDetailsCommand.ExecuteNonQuery();
+
+                    // Cập nhật tổng tiền của đơn hàng
+                    var updateOrderCommand = new SqlCommand(
+                        "UPDATE orders SET total_amount = (SELECT SUM(total_price) FROM order_items WHERE order_id = @orderId) WHERE id = @orderId",
+                        connection, transaction);
+                    updateOrderCommand.Parameters.AddWithValue("@orderId", orderId);
+                    updateOrderCommand.ExecuteNonQuery();
+
+                    // Cập nhật số lượng sản phẩm trong kho
+                    int currentQuantity;
+                    using (var getProductClient = new HttpClient())
+                    {
+                        getProductClient.BaseAddress = new Uri("https://localhost:44361/");
+                        getProductClient.DefaultRequestHeaders.Authorization =
+                            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", Request.Headers.Authorization.Parameter);
+
+                        var productResponse = getProductClient.GetAsync($"products/{productId}").Result;
+                        if (!productResponse.IsSuccessStatusCode)
+                        {
+                            throw new Exception($"Failed to fetch product details for ProductId: {productId}. Status: {productResponse.StatusCode}");
+                        }
+
+                        var product = productResponse.Content.ReadAsAsync<Product>().Result;
+                        currentQuantity = product.Quantity;
+                    }
+
+                    // Tính toán số lượng cập nhật
+                    int updatedQuantity = currentQuantity - (updatedDetails.Quantity - orderItem.Quantity);
+
+                    using (var updateProductClient = new HttpClient())
+                    {
+                        updateProductClient.BaseAddress = new Uri("https://localhost:44361/");
+                        updateProductClient.DefaultRequestHeaders.Authorization =
+                            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", Request.Headers.Authorization.Parameter);
+
+                        var updateProductResponse = updateProductClient.PutAsJsonAsync($"products/updatesl/{productId}", new { Quantity = updatedQuantity }).Result;
+                        if (!updateProductResponse.IsSuccessStatusCode)
+                        {
+                            throw new Exception($"Failed to update product quantity for ProductId: {productId}. Status: {updateProductResponse.StatusCode}");
+                        }
+                    }
+
+                    // Commit transaction
+                    transaction.Commit();
+
+                    return Ok("Order item details updated successfully.");
                 }
                 catch (Exception ex)
                 {

@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\PCs\\source\\repos\\HDV 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\models\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|c:\\users\\pcs\\source\\repos\\hdv 4\\hdv 4\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|c:\\users\\pcs\\source\\repos\\hdv 4\\hdv 4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|c:\\users\\pcs\\source\\repos\\hdv 4\\hdv 4\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\models\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\models\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|solutionrelative:hdv 4\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{787A4AC8-85CB-4F3B-87C1-70DE04ADCB3D}|HDV 4\\HDV 4.csproj|C:\\Users\\PCs\\source\\repos\\HDV 4\\hdv 4\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +78,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "HDV 4\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "HDV 4\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAF0BAAAAAAAAAAAcwIABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:55:53.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HDV 4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HDV 4\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T15:27:46.882Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "HDV 4\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "HDV 4\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAcwOsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:10:21.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\Product.cs",
               "RelativeDocumentMoniker": "HDV 4\\Models\\Product.cs",
@@ -82,38 +123,23 @@
               "RelativeToolTip": "HDV 4\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:30:11.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T16:30:11.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\Order.cs",
               "RelativeDocumentMoniker": "HDV 4\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\Order.cs",
               "RelativeToolTip": "HDV 4\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:54:58.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T16:54:58.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrderItemsController.cs",
-              "RelativeDocumentMoniker": "HDV 4\\Controllers\\OrderItemsController.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrderItemsController.cs",
-              "RelativeToolTip": "HDV 4\\Controllers\\OrderItemsController.cs",
-              "ViewState": "AQIAABwBAAAAAAAAAAAswC0BAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T07:10:21.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "OrderItemRequest.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\OrderItemRequest.cs",
               "RelativeDocumentMoniker": "HDV 4\\Models\\OrderItemRequest.cs",
@@ -121,24 +147,12 @@
               "RelativeToolTip": "HDV 4\\Models\\OrderItemRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T11:42:34.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "HDV 4\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "HDV 4\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAOsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:55:53.865Z",
+              "WhenOpened": "2024-12-17T11:42:34.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HDV 4\\Views\\Home\\Index.cshtml",
@@ -150,31 +164,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "HDV 4\\Models\\OrderItem.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\OrderItem.cs",
               "RelativeToolTip": "HDV 4\\Models\\OrderItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T16:55:19.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreateOrderRequest.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\CreateOrderRequest.cs",
               "RelativeDocumentMoniker": "HDV 4\\Models\\CreateOrderRequest.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Models\\CreateOrderRequest.cs",
               "RelativeToolTip": "HDV 4\\Models\\CreateOrderRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T17:23:31.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "HDV 4\\Controllers\\ValuesController.cs",
@@ -186,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "JwtAuthenticationAttribute.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Services\\JwtAuthenticationAttribute.cs",
               "RelativeDocumentMoniker": "HDV 4\\Services\\JwtAuthenticationAttribute.cs",
@@ -198,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 4\\HDV 4\\Web.config",
               "RelativeDocumentMoniker": "HDV 4\\Web.config",

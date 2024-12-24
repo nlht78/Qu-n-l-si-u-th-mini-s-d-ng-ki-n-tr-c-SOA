@@ -15,13 +15,18 @@ namespace HDV_3.Controllers
         // GET /products
         [HttpGet]
         [Route("products")]
-        public IHttpActionResult GetProducts()
+        public IHttpActionResult GetProducts(int page = 1, int pageSize = 10)
         {
             var products = new List<Product>();
             using (var connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                var command = new SqlCommand("SELECT * FROM products", connection);
+                var offset = (page - 1) * pageSize;
+                var command = new SqlCommand(
+                    "SELECT * FROM products ORDER BY id OFFSET @offset ROWS FETCH NEXT @pageSize ROWS ONLY",
+                    connection);
+                command.Parameters.AddWithValue("@offset", offset);
+                command.Parameters.AddWithValue("@pageSize", pageSize);
                 var reader = command.ExecuteReader();
                 while (reader.Read())
                 {
@@ -37,8 +42,10 @@ namespace HDV_3.Controllers
                     });
                 }
             }
+
             return Ok(products);
         }
+
 
         // GET /products/{id}
         [HttpGet]

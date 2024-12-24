@@ -9,6 +9,8 @@ namespace HDV_5.Models
     {
         public int OrderId { get; set; }
         public decimal TotalCost { get; set; }
+
+        public List<ProductReportRequest> Products { get; set; }
     }
 
 }

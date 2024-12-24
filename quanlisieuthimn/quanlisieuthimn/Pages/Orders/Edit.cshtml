@@ -1,0 +1,31 @@
+﻿@page "{id:int}"
+@model quanlisieuthimn.Pages.Orders.EditModel
+
+@{
+    ViewData["Title"] = "Chỉnh sửa đơn hàng";
+}
+
+<h2>Chỉnh sửa đơn hàng</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Order.Id" />
+
+    <div class="form-group">
+        <label for="CustomerName">Tên khách hàng</label>
+        <input type="text" class="form-control" id="CustomerName" asp-for="Order.CustomerName" required />
+    </div>
+    <div class="form-group">
+        <label for="CustomerEmail">Email</label>
+        <input type="email" class="form-control" id="CustomerEmail" asp-for="Order.CustomerEmail" required />
+    </div>
+    <div class="form-group">
+        <label for="Status">Trạng thái</label>
+        <select class="form-control" asp-for="Order.Status">
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
+            <option value="cancelled">Cancelled</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-page="./Index" class="btn btn-secondary">Hủy</a>
+</form>

@@ -1,0 +1,26 @@
+﻿@page "{id:int}"
+@model quanlisieuthimn.Pages.Orders.DeleteModel
+
+@{
+    ViewData["Title"] = "Xóa đơn hàng";
+}
+
+<h2>Xóa đơn hàng</h2>
+
+<p>Bạn có chắc chắn muốn xóa đơn hàng này không?</p>
+
+<dl class="row">
+    <dt class="col-sm-2">Mã đơn hàng</dt>
+    <dd class="col-sm-10">@Model.Order.Id</dd>
+
+    <dt class="col-sm-2">Tên khách hàng</dt>
+    <dd class="col-sm-10">@Model.Order.CustomerName</dd>
+
+    <dt class="col-sm-2">Email</dt>
+    <dd class="col-sm-10">@Model.Order.CustomerEmail</dd>
+</dl>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-page="./Index" class="btn btn-secondary">Hủy</a>
+</form>

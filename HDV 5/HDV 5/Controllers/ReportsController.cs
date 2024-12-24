@@ -135,6 +135,50 @@ namespace HDV_5.Controllers
 
 
 
+        private Product GetProductDetails(int productId, HttpRequestMessage request)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:44361/"); // URL dịch vụ quản lý sản phẩm
+                try
+                {
+
+                    // Lấy Authorization Header từ request gốc
+                    if (request.Headers.Authorization == null || string.IsNullOrEmpty(request.Headers.Authorization.Parameter))
+                    {
+                        throw new Exception("Authorization header is missing or invalid.");
+                    }
+
+                    var jwtToken = request.Headers.Authorization.Parameter;
+
+                    // Thêm Authorization Key vào Header
+                    client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", jwtToken);
+
+
+                    var response = client.GetAsync($"products/{productId}").Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return response.Content.ReadAsAsync<Product>().Result;
+                    }
+
+                    else
+                    {
+                        var error = response.Content.ReadAsStringAsync().Result;
+                        throw new Exception($"Failed to fetch order items. Status: {response.StatusCode}, Error: {error}");
+                    }
+
+
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Failed to fetch order items from order service.", ex);
+                }
+                
+            }
+        }
+
+        
+
 
 
         // GET /reports/products
@@ -217,31 +261,10 @@ namespace HDV_5.Controllers
 
 
         // POST /reports/products
-        [HttpPost]
-        [Route("reports/products")]
-        public IHttpActionResult CreateProductReport(ProductReportRequest reportRequest)
+        private bool CreateProductReportInternal(ProductReportRequest request, int orderReportId)
         {
             try
             {
-                // 1. Gọi API /products để lấy thông tin sản phẩm
-                var products = GetProducts(Request);
-                var product = products.FirstOrDefault(p => p.Id == reportRequest.ProductId);
-                if (product == null)
-                {
-                    return NotFound(); // Không tìm thấy sản phẩm
-                }
-
-                // 2. Gọi API /order_items để lấy dữ liệu bán hàng cho sản phẩm
-                var orderItems = GetOrderItems(Request);
-                var productOrderItems = orderItems.Where(o => o.ProductId == reportRequest.ProductId);
-
-                // 3. Tính toán TotalSold, Revenue và Profit
-                var totalSold = productOrderItems.Sum(o => o.Quantity); // Tổng số lượng đã bán
-                var revenue = totalSold * product.Price; // Tổng doanh thu
-                var cost = reportRequest.Cost; // Chi phí sản phẩm từ client
-                
-
-                // 4. Lưu vào cơ sở dữ liệu
                 using (var connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -249,23 +272,28 @@ namespace HDV_5.Controllers
                         "INSERT INTO product_reports (order_report_id, product_id, total_sold, revenue, cost) VALUES (@orderReportId, @productId, @totalSold, @revenue, @cost)",
                         connection
                     );
-                    command.Parameters.AddWithValue("@orderReportId", reportRequest.OrderReportId);
-                    command.Parameters.AddWithValue("@productId", reportRequest.ProductId);
-                    command.Parameters.AddWithValue("@totalSold", totalSold);
-                    command.Parameters.AddWithValue("@revenue", revenue);
-                    command.Parameters.AddWithValue("@cost", cost);
+                    decimal Revenue = request.Revenue * request.TotalSold;
+                    
+
+                    command.Parameters.AddWithValue("@orderReportId", orderReportId);
+                    command.Parameters.AddWithValue("@productId", request.ProductId);
+                    command.Parameters.AddWithValue("@totalSold", request.TotalSold);
+                    command.Parameters.AddWithValue("@revenue", Revenue);
+                    command.Parameters.AddWithValue("@cost", request.Cost);
                     
 
                     command.ExecuteNonQuery();
                 }
 
-                return Ok("Product report created successfully.");
+                return true; // Thành công
             }
-            catch (Exception ex)
+            catch
             {
-                return InternalServerError(ex);
+                return false; // Thất bại
             }
         }
+
+
 
 
 
@@ -341,50 +369,73 @@ namespace HDV_5.Controllers
         // POST /reports/orders
         [HttpPost]
         [Route("reports/orders")]
-        public IHttpActionResult CreateOrderReport(OrderReportRequest reportRequest)
+        public IHttpActionResult CreateOrderReport(OrderReportRequest request)
         {
             try
             {
-                // 1. Gọi API /orders để lấy thông tin đơn hàng
-                var orders = GetOrders(Request);
-                var order = orders.FirstOrDefault(o => o.Id == reportRequest.OrderId);
-                if (order == null)
+                decimal totalRevenue = 0;
+                decimal totalCost = 0;
+
+                List<ProductReportRequest> processedProducts = new List<ProductReportRequest>();
+
+                foreach (var product in request.Products)
                 {
-                    return NotFound(); // Không tìm thấy đơn hàng
+                    var productDetails = GetProductDetails(product.ProductId, Request);
+                    if (productDetails == null)
+                    {
+                        return NotFound();
+                    }
+
+                    decimal cost = (product.Revenue - (product.Revenue * 0.25m))* product.TotalSold;
+                    
+
+                    totalRevenue += product.Revenue * product.TotalSold;
+                    totalCost += cost;
+
+                    processedProducts.Add(new ProductReportRequest
+                    {
+                        ProductId = product.ProductId,
+                        TotalSold = product.TotalSold,
+                        Revenue = product.Revenue,
+                        Cost = cost
+                    });
                 }
 
-                // 2. Gọi API /order_items để lấy thông tin chi tiết sản phẩm trong đơn hàng
-                var orderItems = GetOrderItems(Request);
-                var currentOrderItems = orderItems.Where(o => o.OrderId == reportRequest.OrderId);
-
-                // 3. Tính toán TotalRevenue, TotalCost, và TotalProfit
-                var totalRevenue = currentOrderItems.Sum(o => o.TotalPrice); // Tổng doanh thu
-                var totalCost = reportRequest.TotalCost; // Chi phí từ client
-                
-
-                // 4. Lưu vào cơ sở dữ liệu
+                int orderReportId;
                 using (var connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
                     var command = new SqlCommand(
-                        "INSERT INTO orders_reports (order_id, total_revenue, total_cost) VALUES (@orderId, @revenue, @cost)",
+                        "INSERT INTO orders_reports (order_id, total_revenue, total_cost) OUTPUT INSERTED.id VALUES (@orderId, @totalRevenue, @totalCost)",
                         connection
                     );
-                    command.Parameters.AddWithValue("@orderId", reportRequest.OrderId);
-                    command.Parameters.AddWithValue("@revenue", totalRevenue);
-                    command.Parameters.AddWithValue("@cost", totalCost);
-                   
+                    command.Parameters.AddWithValue("@orderId", request.OrderId);
+                    command.Parameters.AddWithValue("@totalRevenue", totalRevenue);
+                    command.Parameters.AddWithValue("@totalCost", totalCost);
+                    
 
-                    command.ExecuteNonQuery();
+                    orderReportId = (int)command.ExecuteScalar();
                 }
 
-                return Ok("Order report created successfully.");
+                foreach (var product in processedProducts)
+                {
+                    var productResponse = CreateProductReportInternal(product, orderReportId);
+                    if (!productResponse)
+                    {
+                        return InternalServerError(new Exception($"Failed to create product report for ProductId: {product.ProductId}"));
+                    }
+                }
+
+                return Ok("Order report and associated product reports created successfully.");
             }
             catch (Exception ex)
             {
                 return InternalServerError(ex);
             }
         }
+
+
+
 
 
 

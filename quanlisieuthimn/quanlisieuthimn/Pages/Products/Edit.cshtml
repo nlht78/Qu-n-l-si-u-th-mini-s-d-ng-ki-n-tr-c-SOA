@@ -1,0 +1,19 @@
+﻿@page "{id:int}"
+@model quanlisieuthimn.Pages.Products.EditModel
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+}
+
+<h2>Chỉnh sửa sản phẩm</h2>
+<form method="post">
+    <label>Tên sản phẩm:</label>
+    <input type="text" name="Product.Name" value="@Model.Product.Name" required />
+    <label>Mô tả:</label>
+    <textarea name="Product.Description" required>@Model.Product.Description</textarea>
+    <label>Giá:</label>
+    <input type="number" name="Product.Price" step="0.01" value="@Model.Product.Price" required />
+    <label>Số lượng:</label>
+    <input type="number" name="Product.Quantity" value="@Model.Product.Quantity" required />
+    <button type="submit">Cập nhật</button>
+</form>
+<a href="/Products">Trở lại danh sách</a>

@@ -1,0 +1,42 @@
+﻿@page
+@model quanlisieuthimn.Pages.Reports.IndexModel
+
+@{
+    ViewData["Title"] = "Báo cáo";
+}
+
+<h2>Báo cáo</h2>
+
+<h3>Báo cáo Đơn hàng</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Order ID</th>
+            <th>Tổng doanh thu</th>
+            <th>Tổng chi phí</th>
+            <th>Lợi nhuận</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var report in Model.OrderReports)
+        {
+            <tr>
+                <td>@report.Id</td>
+                <td>@report.OrderId</td>
+                <td>@report.TotalRevenue.ToString("C")</td>
+                <td>@report.TotalCost.ToString("C")</td>
+                <td>@report.TotalProfit.ToString("C")</td>
+                <td>
+                    <a href="/Reports/EditOrder/@report.Id">Chỉnh sửa</a> |
+                    <a href="/Reports/DeleteOrder/@report.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Báo cáo Sản phẩm</h3>
+<a href="/Reports/Products" class="btn btn-primary">Xem Báo cáo Sản phẩm</a>
+<a href="/Products">Trở lại trang chủ</a>

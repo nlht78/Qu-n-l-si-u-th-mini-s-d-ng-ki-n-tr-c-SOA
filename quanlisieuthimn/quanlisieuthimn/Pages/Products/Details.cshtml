@@ -1,0 +1,15 @@
+﻿@page "{id:int}"
+@model quanlisieuthimn.Pages.Products.DetailsModel
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+<table>
+    <tr><th>ID:</th><td>@Model.Product.Id</td></tr>
+    <tr><th>Tên:</th><td>@Model.Product.Name</td></tr>
+    <tr><th>Mô tả:</th><td>@Model.Product.Description</td></tr>
+    <tr><th>Giá:</th><td>@Model.Product.Price</td></tr>
+    <tr><th>Số lượng:</th><td>@Model.Product.Quantity</td></tr>
+</table>
+<a href="/Products">Trở lại danh sách</a>

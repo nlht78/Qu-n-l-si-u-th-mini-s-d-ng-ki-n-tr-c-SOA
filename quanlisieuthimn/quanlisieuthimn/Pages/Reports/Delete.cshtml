@@ -1,0 +1,15 @@
+﻿@page "{type}/{id:int}"
+@model quanlisieuthimn.Pages.Reports.DeleteModel
+
+@{
+    ViewData["Title"] = "Xóa Báo cáo";
+}
+
+<h2>Xóa Báo cáo</h2>
+
+<p>Bạn có chắc chắn muốn xóa báo cáo này không?</p>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-page="./Index" class="btn btn-secondary">Hủy</a>
+</form>

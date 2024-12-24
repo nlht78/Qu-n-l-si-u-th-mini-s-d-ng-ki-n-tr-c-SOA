@@ -1,0 +1,199 @@
+﻿@page "{orderId:int?}"
+@model quanlisieuthimn.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Quản lý đơn hàng và sản phẩm";
+}
+
+<h2>Quản lý đơn hàng và sản phẩm</h2>
+<a href="/Reports/Index">Quản lý báo cáo</a>
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<div class="container">
+    <!-- Cột bên trái: Thanh đơn hàng và chi tiết -->
+    <div class="left-column">
+        <h3>Đơn hàng</h3>
+        <a href="/Orders/Index">Quản lý đơn hàng</a>
+
+        <a href="/Orders/Create">Tạo đơn hàng mới</a>
+
+        <!-- Thanh ngang hiển thị các đơn hàng -->
+        <div class="order-tabs">
+            @foreach (var order in Model.Orders)
+            {
+                <a href="/Products?orderId=@order.Id" class="order-tab @(Model.SelectedOrderId == order.Id ? "active" : "")">
+                    @($"Hóa đơn {order.Id}")
+                </a>
+            }
+        </div>
+
+        <!-- Khu vực hiển thị thông tin chi tiết đơn hàng -->
+        <div id="order-details">
+            <h4>Chi tiết đơn hàng</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Hàng hóa</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Thành tiền</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody id="order-items">
+                    @if (Model.OrderItems != null && Model.OrderItems.Count > 0)
+                    {
+                        @foreach (var item in Model.OrderItems)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>
+                                    <form method="post" asp-page-handler="UpdateQuantity">
+                                        <input type="hidden" name="orderId" value="@Model.SelectedOrderId" />
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <input type="number" name="newQuantity" value="@item.Quantity" min="1" class="form-control" style="width: 80px; display: inline;" />
+                                        <button type="submit" class="btn btn-sm btn-primary">Cập nhật</button>
+                                    </form>
+                                </td>
+                                <td>@item.UnitPrice.ToString("C")</td>
+                                <td>@item.TotalPrice.ToString("C")</td>
+                                <td>
+                                    <form method="post" asp-page-handler="RemoveFromOrder">
+                                        <input type="hidden" name="orderId" value="@Model.SelectedOrderId" />
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn-danger">Xóa</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else if (Model.SelectedOrderId.HasValue)
+                    {
+                        <tr>
+                            <td colspan="5">Không có sản phẩm nào trong đơn hàng này.</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5">Chọn một đơn hàng để xem chi tiết.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                @if (Model.SelectedOrderId.HasValue)
+                {
+                    <p><strong>Tổng tiền:</strong> @Model.SelectedOrderTotal.ToString("C")</p>
+                    <form method="post" asp-page-handler="UpdateOrderStatus">
+                        <input type="hidden" name="orderId" value="@Model.SelectedOrderId" />
+                        <button type="submit" name="status" value="completed" class="btn btn-success">Thanh toán</button>
+                        <button type="submit" name="status" value="cancelled" class="btn btn-danger">Hủy hóa đơn</button>
+                    </form>
+                    <form method="post" asp-page-handler="UpdateOrderStatusAndCreateReport">
+                        <input type="hidden" name="orderId" value="@Model.SelectedOrderId" />
+                        <button type="submit" name="status" value="completed" class="btn btn-primary">Thanh toán & In báo cáo</button>
+                    </form>
+                }
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Cột bên phải: Danh sách sản phẩm -->
+    <div class="right-column">
+        <h3>Danh sách sản phẩm</h3>
+        <a href="/Products/Create">Thêm sản phẩm mới</a>
+        <form method="post" asp-page-handler="AddToOrder">
+            <input type="hidden" name="orderId" value="@Model.SelectedOrderId" />
+            <div class="products-grid">
+                @foreach (var product in Model.Products)
+                {
+                    <div class="product-card">
+                        <h4>@product.Name</h4>
+                        <p><strong>Mô tả:</strong> @product.Description</p>
+                        <p><strong>Giá:</strong> @product.Price.ToString("C")</p>
+                        <p><strong>Số lượng:</strong> @product.Quantity</p>
+                        <div class="actions">
+                            <a href="/Products/Details/@product.Id">Chi tiết</a> |
+                            <a href="/Products/Edit/@product.Id">Chỉnh sửa</a> |
+                            <a href="/Products/Delete/@product.Id">Xóa</a>
+                        </div>
+                        <button type="submit" name="SelectedProductId" value="@product.Id" class="btn btn-primary">
+                            Mua
+                        </button>
+
+
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<style>
+    .container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .left-column {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+
+    .right-column {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .order-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .order-tab {
+        display: inline-block;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        text-decoration: none;
+        color: black;
+    }
+
+        .order-tab.active {
+            background-color: #007bff;
+            color: white;
+        }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .product-card {
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+</style>

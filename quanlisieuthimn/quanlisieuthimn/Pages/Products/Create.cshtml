@@ -1,0 +1,19 @@
+﻿@page
+@model quanlisieuthimn.Pages.Products.CreateModel
+@{
+    ViewData["Title"] = "Thêm sản phẩm mới";
+}
+
+<h2>Thêm sản phẩm mới</h2>
+<form method="post">
+    <label>Tên sản phẩm:</label>
+    <input type="text" name="Product.Name" required />
+    <label>Mô tả:</label>
+    <textarea name="Product.Description" required></textarea>
+    <label>Giá:</label>
+    <input type="number" name="Product.Price" step="0.01" required />
+    <label>Số lượng:</label>
+    <input type="number" name="Product.Quantity" required />
+    <button type="submit">Lưu</button>
+</form>
+<a href="/Products">Trở lại danh sách</a>

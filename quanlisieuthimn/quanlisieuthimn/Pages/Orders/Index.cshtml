@@ -1,0 +1,40 @@
+﻿@page
+@model quanlisieuthimn.Pages.Orders.IndexModel
+
+@{
+    ViewData["Title"] = "Danh sách đơn hàng";
+}
+
+<h2>Danh sách đơn hàng</h2>
+<a href="/Orders/Create">Tạo đơn hàng mới</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Khách hàng</th>
+            <th>Email</th>
+            <th>Tổng tiền</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.CustomerName</td>
+                <td>@order.CustomerEmail</td>
+                <td>@order.TotalAmount</td>
+                <td>@order.Status</td>
+                <td>
+                    <a href="/Orders/Details/@order.Id">Chi tiết</a> |
+                    <a href="/Orders/Edit/@order.Id">Chỉnh sửa</a> |
+                    <a href="/Orders//Delete/@order.Id">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Products">Quay lại trang chủ</a>

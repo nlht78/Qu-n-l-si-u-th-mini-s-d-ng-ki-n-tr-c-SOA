@@ -42,6 +42,36 @@ namespace HDV_4.Controllers
             return Ok(orders);
         }
 
+
+        // GET /orders/pending
+        [HttpGet]
+        [Route("orders/pending")]
+        public IHttpActionResult GetPendingOrders()
+        {
+            var pendingOrders = new List<Order>();
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT * FROM orders WHERE status = @status", connection);
+                command.Parameters.AddWithValue("@status", "pending");
+                var reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    pendingOrders.Add(new Order
+                    {
+                        Id = (int)reader["id"],
+                        CustomerName = reader["customer_name"].ToString(),
+                        CustomerEmail = reader["customer_email"].ToString(),
+                        TotalAmount = (decimal)reader["total_amount"],
+                        Status = reader["status"].ToString(),
+                        CreatedAt = (DateTime)reader["created_at"],
+                        UpdatedAt = (DateTime)reader["updated_at"]
+                    });
+                }
+            }
+            return Ok(pendingOrders);
+        }
+
         // GET /orders/{id}
         [HttpGet]
         [Route("orders/{id:int}")]
