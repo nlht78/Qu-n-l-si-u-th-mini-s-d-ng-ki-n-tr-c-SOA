@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
 using quanlisieuthimn.Models;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,24 @@ namespace quanlisieuthimn.Pages.Products
 
         [BindProperty]
         public Product Product { get; set; }
+        public List<Category> Categories { get; set; } = new List<Category>(); // Danh sách loại sản phẩm
+
+        public async Task<IActionResult> OnGetAsync()
+        {
+            var client = _httpClientFactory.CreateClient("ProductService");
+            string token = HttpContext.Session.GetString("JWToken");
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+            // Lấy danh sách loại sản phẩm từ API
+            var response = await client.GetAsync("/categories");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                Categories = JsonConvert.DeserializeObject<List<Category>>(content);
+            }
+
+            return Page();
+        }
 
         public async Task<IActionResult> OnPostAsync()
         {

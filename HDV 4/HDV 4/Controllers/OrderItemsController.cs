@@ -585,7 +585,7 @@ namespace HDV_4.Controllers
 
                     // 3. Cập nhật tổng tiền của đơn hàng
                     var updateOrderCommand = new SqlCommand(
-                        "UPDATE orders SET total_amount = (SELECT SUM(total_price) FROM order_items WHERE order_id = @orderId) " +
+                        "UPDATE orders SET total_amount = ISNULL((SELECT SUM(total_price) FROM order_items WHERE order_id = @orderId), 0) " +
                         "WHERE id = @orderId", connection, transaction);
                     updateOrderCommand.Parameters.AddWithValue("@orderId", orderId);
                     updateOrderCommand.ExecuteNonQuery();

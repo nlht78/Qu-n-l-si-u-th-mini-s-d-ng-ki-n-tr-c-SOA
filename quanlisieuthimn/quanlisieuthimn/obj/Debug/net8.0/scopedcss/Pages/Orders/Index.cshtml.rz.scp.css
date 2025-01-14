@@ -1,0 +1,70 @@
+body[b-k7xms0zufw]{
+
+}
+.orders-container[b-k7xms0zufw] {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-title[b-k7xms0zufw] {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.action-buttons[b-k7xms0zufw] {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.table[b-k7xms0zufw] {
+    margin-top: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .table thead[b-k7xms0zufw] {
+        background-color: #343a40;
+        color: #fff;
+    }
+
+    .table th[b-k7xms0zufw], .table td[b-k7xms0zufw] {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .table td[b-k7xms0zufw] {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+.table-responsive[b-k7xms0zufw] {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.badge[b-k7xms0zufw] {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.badge-pending[b-k7xms0zufw] {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.badge-completed[b-k7xms0zufw] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.badge-cancelled[b-k7xms0zufw] {
+    background-color: #dc3545;
+    color: #fff;
+}

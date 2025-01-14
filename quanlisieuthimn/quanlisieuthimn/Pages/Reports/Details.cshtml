@@ -1,0 +1,32 @@
+﻿@page "{type}/{id:int}"
+@model quanlisieuthimn.Pages.Reports.DetailsModel
+
+@{
+    ViewData["Title"] = "Chi tiết Báo cáo";
+}
+
+<div class="details-container">
+    <h2>Chi tiết Báo cáo @Model.Type</h2>
+
+    @if (Model.Type.ToLower() == "order")
+    {
+        <h3>Báo cáo Đơn hàng</h3>
+        <p><strong>ID:</strong> @Model.OrderReport.Id</p>
+        <p><strong>Order ID:</strong> @Model.OrderReport.OrderId</p>
+        <p><strong>Tổng doanh thu:</strong> @Model.OrderReport.TotalRevenue.ToString("C")</p>
+        <p><strong>Tổng chi phí:</strong> @Model.OrderReport.TotalCost.ToString("C")</p>
+        <p><strong>Lợi nhuận:</strong> @Model.OrderReport.TotalProfit.ToString("C")</p>
+    }
+    else if (Model.Type.ToLower() == "product")
+    {
+        <h3>Báo cáo Sản phẩm</h3>
+        <p><strong>ID:</strong> @Model.ProductReport.Id</p>
+        <p><strong>Product ID:</strong> @Model.ProductReport.ProductId</p>
+        <p><strong>Tổng đã bán:</strong> @Model.ProductReport.TotalSold</p>
+        <p><strong>Doanh thu:</strong> @Model.ProductReport.Revenue.ToString("C")</p>
+        <p><strong>Chi phí:</strong> @Model.ProductReport.Cost.ToString("C")</p>
+        <p><strong>Lợi nhuận:</strong> @Model.ProductReport.Profit.ToString("C")</p>
+    }
+
+    <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>
+</div>

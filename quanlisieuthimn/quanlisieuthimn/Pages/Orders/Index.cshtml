@@ -5,36 +5,111 @@
     ViewData["Title"] = "Danh sách đơn hàng";
 }
 
-<h2>Danh sách đơn hàng</h2>
-<a href="/Orders/Create">Tạo đơn hàng mới</a>
+<div class="orders-container">
+    <h2 class="page-title">Danh sách đơn hàng</h2>
+    <div class="action-buttons">
+        <a href="/Orders/Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Tạo đơn hàng mới
+        </a>
+    </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Khách hàng</th>
-            <th>Email</th>
-            <th>Tổng tiền</th>
-            <th>Trạng thái</th>
-            <th>Hành động</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var order in Model.Orders)
-        {
-            <tr>
-                <td>@order.Id</td>
-                <td>@order.CustomerName</td>
-                <td>@order.CustomerEmail</td>
-                <td>@order.TotalAmount</td>
-                <td>@order.Status</td>
-                <td>
-                    <a href="/Orders/Details/@order.Id">Chi tiết</a> |
-                    <a href="/Orders/Edit/@order.Id">Chỉnh sửa</a> |
-                    <a href="/Orders//Delete/@order.Id">Xóa</a>
-                </td>
-            </tr>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Khách hàng</th>
+                    <th>Email</th>
+                    <th>Tổng tiền</th>
+                    <th>Trạng thái</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.Id</td>
+                        <td>@order.CustomerName</td>
+                        <td>@order.CustomerEmail</td>
+                        <td>@order.TotalAmount.ToString("C")</td>
+                        <td>
+                            <span class="badge @(order.Status.ToLower() == "pending" ? "badge-pending" : order.Status.ToLower() == "completed" ? "badge-completed" : order.Status.ToLower() == "cancelled" ? "badge-cancelled" : "badge-secondary")">
+                                @order.Status
+                            </span>
+                        </td>
+
+                        <td>
+                            <a href="/Orders/Details/@order.Id" class="btn btn-info btn-sm">
+                                <i class="fas fa-info-circle"></i> Chi tiết
+                            </a>
+                            <a href="/Orders/Edit/@order.Id" class="btn btn-warning btn-sm">
+                                <i class="fas fa-edit"></i> Chỉnh sửa
+                            </a>
+                            <a href="/Orders/Delete/@order.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa đơn hàng này?');">
+                                <i class="fas fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <a href="/Products" class="btn btn-secondary mt-3">
+        <i class="fas fa-arrow-left"></i> Quay lại trang chủ
+    </a>
+</div>
+<style>
+    /* Tổng thể */
+    body {
+        font-family: 'Roboto', Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    /* Buttons */
+    .btn {
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
         }
-    </tbody>
-</table>
-<a href="/Products">Quay lại trang chủ</a>
+
+    /* Table */
+    .table {
+        margin-top: 1rem;
+        background-color: white;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .table th {
+            background-color: black;
+            color: white;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+</style>

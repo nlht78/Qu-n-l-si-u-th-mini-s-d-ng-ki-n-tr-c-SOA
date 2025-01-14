@@ -453,5 +453,83 @@ namespace HDV_5.Controllers
             }
             return Ok("Order report deleted successfully.");
         }
+
+        [HttpGet]
+        [Route("reports/business-analysis")]
+        public IHttpActionResult PhanTichHieuQuaKinhDoanh()
+        {
+            try
+            {
+                using (var connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    // Tính toán phân tích
+                    decimal tongDoanhThu = 0, tongChiPhi = 0, tongLoiNhuan = 0;
+                    int tongSanPham = 0, tongSoLuongBan = 0;
+
+                    // Tính tổng doanh thu và tổng chi phí từ bảng orders_reports
+                    var doanhThuCommand = new SqlCommand("SELECT SUM(total_revenue) AS TongDoanhThu, SUM(total_cost) AS TongChiPhi FROM orders_reports", connection);
+                    var reader = doanhThuCommand.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        tongDoanhThu = reader["TongDoanhThu"] != DBNull.Value ? (decimal)reader["TongDoanhThu"] : 0;
+                        tongChiPhi = reader["TongChiPhi"] != DBNull.Value ? (decimal)reader["TongChiPhi"] : 0;
+                    }
+                    reader.Close();
+                    tongLoiNhuan = tongDoanhThu - tongChiPhi;
+
+                    // Tính tổng số sản phẩm và tổng số lượng bán ra từ bảng product_reports
+                    var sanPhamCommand = new SqlCommand("SELECT COUNT(DISTINCT product_id) AS TongSanPham, SUM(total_sold) AS TongSoLuongBan FROM product_reports", connection);
+                    var sanPhamReader = sanPhamCommand.ExecuteReader();
+                    if (sanPhamReader.Read())
+                    {
+                        tongSanPham = sanPhamReader["TongSanPham"] != DBNull.Value ? (int)sanPhamReader["TongSanPham"] : 0;
+                        tongSoLuongBan = sanPhamReader["TongSoLuongBan"] != DBNull.Value ? (int)sanPhamReader["TongSoLuongBan"] : 0;
+                    }
+                    sanPhamReader.Close();
+
+                    // Tính toán doanh thu và lợi nhuận trung bình trên mỗi sản phẩm
+                    decimal doanhThuTrungBinh = tongSanPham > 0 ? tongDoanhThu / tongSanPham : 0;
+                    decimal loiNhuanTrungBinh = tongSanPham > 0 ? tongLoiNhuan / tongSanPham : 0;
+
+                    // Lưu dữ liệu vào bảng BusinessAnalysis
+                    var insertCommand = new SqlCommand(
+                        "INSERT INTO BusinessAnalysis (TongDoanhThu, TongChiPhi, TongLoiNhuan, TongSoSanPham, TongSoLuongBan, DoanhThuTrungBinhMoiSanPham, LoiNhuanTrungBinhMoiSanPham) " +
+                        "VALUES (@TongDoanhThu, @TongChiPhi, @TongLoiNhuan, @TongSoSanPham, @TongSoLuongBan, @DoanhThuTrungBinh, @LoiNhuanTrungBinh)",
+                        connection
+                    );
+                    insertCommand.Parameters.AddWithValue("@TongDoanhThu", tongDoanhThu);
+                    insertCommand.Parameters.AddWithValue("@TongChiPhi", tongChiPhi);
+                    insertCommand.Parameters.AddWithValue("@TongLoiNhuan", tongLoiNhuan);
+                    insertCommand.Parameters.AddWithValue("@TongSoSanPham", tongSanPham);
+                    insertCommand.Parameters.AddWithValue("@TongSoLuongBan", tongSoLuongBan);
+                    insertCommand.Parameters.AddWithValue("@DoanhThuTrungBinh", doanhThuTrungBinh);
+                    insertCommand.Parameters.AddWithValue("@LoiNhuanTrungBinh", loiNhuanTrungBinh);
+
+                    insertCommand.ExecuteNonQuery();
+
+                    // Trả về kết quả phân tích
+                    var ketQuaPhanTich = new
+                    {
+                        TongDoanhThu = tongDoanhThu,
+                        TongChiPhi = tongChiPhi,
+                        TongLoiNhuan = tongLoiNhuan,
+                        TongSoSanPham = tongSanPham,
+                        TongSoLuongBan = tongSoLuongBan,
+                        DoanhThuTrungBinhMoiSanPham = doanhThuTrungBinh,
+                        LoiNhuanTrungBinhMoiSanPham = loiNhuanTrungBinh
+                    };
+
+                    return Ok(ketQuaPhanTich);
+                }
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(new Exception("Đã xảy ra lỗi khi phân tích hiệu quả kinh doanh.", ex));
+            }
+        }
+
+
     }
 }

@@ -9,5 +9,6 @@
         public int Quantity { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public int CategoryId { get; set; } // Liên kết tới loại sản phẩm
     }
 }

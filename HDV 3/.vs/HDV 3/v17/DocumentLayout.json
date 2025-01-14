@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|solutionrelative:hdv 3\\services\\jwtauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9B347B2-C480-476E-B848-EFC907761072}|HDV 3\\HDV 3.csproj|C:\\Users\\PCs\\source\\repos\\HDV 3\\hdv 3\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,6 +78,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
@@ -84,26 +92,26 @@
               "RelativeDocumentMoniker": "HDV 3\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "HDV 3\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAIwH4AAAAyAAAA",
+              "ViewState": "AQIAABEBAAAAAAAAAAAIwDQBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T15:32:50.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Models\\Product.cs",
               "RelativeDocumentMoniker": "HDV 3\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Models\\Product.cs",
               "RelativeToolTip": "HDV 3\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T15:29:01.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "JwtAuthenticationAttribute.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Services\\JwtAuthenticationAttribute.cs",
               "RelativeDocumentMoniker": "HDV 3\\Services\\JwtAuthenticationAttribute.cs",
@@ -115,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "HDV 3\\App_Start\\FilterConfig.cs",
@@ -127,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "HDV 3\\Controllers\\ValuesController.cs",
@@ -139,7 +147,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "HDV 3\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Models\\Category.cs",
+              "RelativeToolTip": "HDV 3\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:12:55.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "HDV 3\\App_Start\\BundleConfig.cs",
@@ -151,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Web.config",
               "RelativeDocumentMoniker": "HDV 3\\Web.config",
@@ -164,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "HDV 3\\App_Start\\RouteConfig.cs",
@@ -188,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Global.asax.cs",
               "RelativeDocumentMoniker": "HDV 3\\Global.asax.cs",
@@ -200,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\packages.config",
               "RelativeDocumentMoniker": "HDV 3\\packages.config",
@@ -212,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\HDV 3\\HDV 3\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "HDV 3\\Properties\\AssemblyInfo.cs",

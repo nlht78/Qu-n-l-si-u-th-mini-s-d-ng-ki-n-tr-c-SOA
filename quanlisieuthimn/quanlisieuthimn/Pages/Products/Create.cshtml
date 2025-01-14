@@ -14,6 +14,14 @@
     <input type="number" name="Product.Price" step="0.01" required />
     <label>Số lượng:</label>
     <input type="number" name="Product.Quantity" required />
+    <label>Loại sản phẩm:</label>
+    <select name="Product.CategoryId" required>
+        <option value="">-- Chọn loại sản phẩm --</option>
+        @foreach (var category in Model.Categories)
+        {
+            <option value="@category.Id">@category.Name</option>
+        }
+    </select>
     <button type="submit">Lưu</button>
 </form>
 <a href="/Products">Trở lại danh sách</a>

@@ -18,26 +18,64 @@ namespace quanlisieuthimn.Pages.Orders
 
         [BindProperty]
         public string CustomerName { get; set; }
+
         [BindProperty]
-        public string CustomerEmail { get; set; }
+        public string? CustomerEmail { get; set; } // Sử dụng nullable type
+
 
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
+            {
+                ModelState.AddModelError(string.Empty, "Dữ liệu không hợp lệ.");
                 return Page();
+            }
 
             var client = _httpClientFactory.CreateClient("OrderService");
             string token = HttpContext.Session.GetString("JWToken");
+
+            if (string.IsNullOrEmpty(token))
+            {
+                ModelState.AddModelError(string.Empty, "Token không tồn tại hoặc đã hết hạn.");
+                return Page();
+            }
+
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            var newOrder = new { Order = new { CustomerName, CustomerEmail } };
-            var response = await client.PostAsync("/orders", new StringContent(JsonConvert.SerializeObject(newOrder), Encoding.UTF8, "application/json"));
+            var newOrder = new
+            {
+                Order = new
+                {
+                    CustomerName,
+                    CustomerEmail = string.IsNullOrEmpty(CustomerEmail) ? null : CustomerEmail
+                }
+            };
 
-            if (response.IsSuccessStatusCode)
-                return RedirectToPage("./Index");
+            try
+            {
+                var response = await client.PostAsync(
+                    "/orders",
+                    new StringContent(JsonConvert.SerializeObject(newOrder), Encoding.UTF8, "application/json")
+                );
 
-            ModelState.AddModelError(string.Empty, "Không thể tạo đơn hàng.");
-            return Page();
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["SuccessMessage"] = "Đơn hàng đã được tạo thành công.";
+                    return RedirectToPage("/Products/Index");
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    ModelState.AddModelError(string.Empty, $"Lỗi từ API: {response.StatusCode} - {errorContent}");
+                    return Page();
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Lỗi khi gọi API: {ex.Message}");
+                return Page();
+            }
         }
+
     }
 }

@@ -25,10 +25,44 @@
         <dt class="col-sm-2">Trạng thái</dt>
         <dd class="col-sm-10">@Model.Order.Status</dd>
     </dl>
+
+    <h3>Chi tiết sản phẩm</h3>
+    <table class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá đơn vị</th>
+                <th>Tổng tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.OrderItems != null && Model.OrderItems.Count > 0)
+            {
+                @foreach (var item in Model.OrderItems)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitPrice.ToString("C")</td>
+                        <td>@item.TotalPrice.ToString("C")</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">Không có sản phẩm trong đơn hàng.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 else
 {
-    <p>Không tìm thấy đơn hàng.</p>
+    <p>Không tìm thấy thông tin đơn hàng.</p>
 }
 
 <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>

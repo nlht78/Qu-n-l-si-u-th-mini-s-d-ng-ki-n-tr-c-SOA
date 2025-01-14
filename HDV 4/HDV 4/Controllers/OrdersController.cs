@@ -126,8 +126,19 @@ namespace HDV_4.Controllers
                         "VALUES (@name, @email, @amount, @status, GETDATE(), GETDATE()); SELECT SCOPE_IDENTITY();",
                         connection, transaction
                     );
+
                     command.Parameters.AddWithValue("@name", request.Order.CustomerName);
-                    command.Parameters.AddWithValue("@email", request.Order.CustomerEmail);
+
+                    // Kiểm tra email có được cung cấp hay không
+                    if (string.IsNullOrWhiteSpace(request.Order.CustomerEmail))
+                    {
+                        command.Parameters.AddWithValue("@email", DBNull.Value); // Gán NULL nếu không có email
+                    }
+                    else
+                    {
+                        command.Parameters.AddWithValue("@email", request.Order.CustomerEmail);
+                    }
+
                     command.Parameters.AddWithValue("@amount", 0); // TotalAmount mặc định là 0
                     command.Parameters.AddWithValue("@status", "pending"); // Trạng thái mặc định là "pending"
 
@@ -140,8 +151,8 @@ namespace HDV_4.Controllers
                         {
                             // 2.1 Thêm các mục vào bảng order_items
                             var itemCommand = new SqlCommand(
-                                "INSERT INTO order_items (order_id, product_id, product_name, quantity, unit_price) " +
-                                "VALUES (@orderId, @productId, @name, @quantity, @price)",
+                                "INSERT INTO order_items (order_id, product_id, product_name, quantity, unit_price, total_price) " +
+                                "VALUES (@orderId, @productId, @name, @quantity, @price, @totalPrice)",
                                 connection, transaction
                             );
                             itemCommand.Parameters.AddWithValue("@orderId", orderId);
@@ -149,7 +160,8 @@ namespace HDV_4.Controllers
                             itemCommand.Parameters.AddWithValue("@name", item.ProductName);
                             itemCommand.Parameters.AddWithValue("@quantity", item.Quantity);
                             itemCommand.Parameters.AddWithValue("@price", item.UnitPrice);
-                            
+                            itemCommand.Parameters.AddWithValue("@totalPrice", item.Quantity * item.UnitPrice);
+
                             itemCommand.ExecuteNonQuery();
 
                             // 2.2 Lấy số lượng hiện tại của sản phẩm
@@ -158,7 +170,6 @@ namespace HDV_4.Controllers
                             {
                                 getProductClient.BaseAddress = new Uri("https://localhost:44361/");
 
-                                // Lấy Authorization Header từ request gốc
                                 if (Request.Headers.Authorization == null || string.IsNullOrEmpty(Request.Headers.Authorization.Parameter))
                                 {
                                     throw new Exception("Authorization header is missing or invalid.");
@@ -166,10 +177,8 @@ namespace HDV_4.Controllers
 
                                 var jwtToken = Request.Headers.Authorization.Parameter;
 
-                                // Thêm Authorization Key vào Header
                                 getProductClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", jwtToken);
 
-                                // Gửi yêu cầu GET để lấy thông tin sản phẩm
                                 var productResponse = getProductClient.GetAsync($"products/{item.ProductId}").Result;
 
                                 if (!productResponse.IsSuccessStatusCode)
@@ -188,8 +197,6 @@ namespace HDV_4.Controllers
                             using (var updateClient = new HttpClient())
                             {
                                 updateClient.BaseAddress = new Uri("https://localhost:44361/");
-
-                                // Thêm Authorization Key vào Header
                                 updateClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", Request.Headers.Authorization.Parameter);
 
                                 var updateResponse = updateClient.PutAsJsonAsync($"products/updatesl/{item.ProductId}", new
@@ -234,6 +241,7 @@ namespace HDV_4.Controllers
                 }
             }
         }
+
 
 
 
@@ -375,6 +383,72 @@ namespace HDV_4.Controllers
             }
         }
 
+        // GET /orders/{id}/details
+        [HttpGet]
+        [Route("orders/{id:int}/details")]
+        public IHttpActionResult GetOrderDetails(int id)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // 1. Lấy thông tin đơn hàng
+                var command = new SqlCommand("SELECT * FROM orders WHERE id = @id", connection);
+                command.Parameters.AddWithValue("@id", id);
+                Order order = null;
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        order = new Order
+                        {
+                            Id = (int)reader["id"],
+                            CustomerName = reader["customer_name"].ToString(),
+                            CustomerEmail = reader["customer_email"].ToString(),
+                            TotalAmount = (decimal)reader["total_amount"],
+                            Status = reader["status"].ToString(),
+                            CreatedAt = (DateTime)reader["created_at"],
+                            UpdatedAt = (DateTime)reader["updated_at"]
+                        };
+                    }
+                }
+
+                if (order == null)
+                    return NotFound();
+
+                // 2. Lấy danh sách sản phẩm trong đơn hàng
+                var orderItems = new List<OrderItem>();
+                var itemsCommand = new SqlCommand("SELECT * FROM order_items WHERE order_id = @orderId", connection);
+                itemsCommand.Parameters.AddWithValue("@orderId", id);
+
+                using (var itemsReader = itemsCommand.ExecuteReader())
+                {
+                    while (itemsReader.Read())
+                    {
+                        orderItems.Add(new OrderItem
+                        {
+                            Id = (int)itemsReader["id"],
+                            OrderId = (int)itemsReader["order_id"],
+                            ProductId = (int)itemsReader["product_id"],
+                            ProductName = itemsReader["product_name"].ToString(),
+                            Quantity = (int)itemsReader["quantity"],
+                            UnitPrice = (decimal)itemsReader["unit_price"],
+                            TotalPrice = (decimal)itemsReader["total_price"]
+                        });
+                    }
+                }
+
+                // 3. Kết hợp thông tin đơn hàng và danh sách sản phẩm
+                var result = new
+                {
+                    Order = order,
+                    OrderItems = orderItems
+                };
+
+                return Ok(result);
+            }
+        }
 
 
 

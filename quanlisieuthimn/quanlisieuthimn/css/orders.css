@@ -1,0 +1,43 @@
+﻿.orders-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.actions {
+    text-align: right;
+}
+
+    .actions .btn {
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.table .btn {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}
+
+.table .badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.back-home .btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+}

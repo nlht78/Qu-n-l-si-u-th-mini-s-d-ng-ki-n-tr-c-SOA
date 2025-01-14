@@ -3,60 +3,200 @@
   "WorkspaceRootPath": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\orderreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\orderreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\orderitemspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\orderitemspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\css\\quanlisieuthimn.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\css\\quanlisieuthimn.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\css\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\css\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\orderitemspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\orderitemspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\businessanalysis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\businessanalysis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\businessanalysis.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\businessanalysis.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\businessanalysisresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\businessanalysisresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\reports\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\reports\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\helpers\\partialviewresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\helpers\\partialviewresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\orderreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\orderreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\productreportrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,104 +211,12 @@
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\orderreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\orders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\orders\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\helpers\\partialviewresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\helpers\\partialviewresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\pages\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|solutionrelative:quanlisieuthimn\\pages\\products\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F663011-E214-481B-B9DE-95837A6991A3}|quanlisieuthimn\\quanlisieuthimn.csproj|c:\\users\\pcs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -186,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -201,117 +249,24 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T09:59:57.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T10:00:02.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderReportRequest.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReportRequest.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderReportRequest.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReportRequest.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderReportRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:56:56.495Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T07:47:41.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAtwDUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T07:19:04.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Index.cshtml",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAmwGYAAAARAAAA",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAcwE8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T07:18:58.92Z"
+              "WhenOpened": "2024-12-21T09:13:08.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T09:58:29.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Products.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-22T09:59:37.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderItemsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T10:00:42.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 27,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Delete.cshtml",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Delete.cshtml",
@@ -319,133 +274,47 @@
               "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T17:31:34.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T17:31:43.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Products.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:59:44.265Z"
+              "WhenOpened": "2024-12-21T17:31:34.813Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ProductReportRequest.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReportRequest.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\ProductReportRequest.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReportRequest.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\ProductReportRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:57:26.871Z"
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml.css",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-13T12:37:04.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:58:38.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Program.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Program.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Program.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T07:14:18.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductReport.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReport.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\ProductReport.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReport.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\ProductReport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:56:23.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderReport.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReport.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderReport.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReport.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderReport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T09:55:57.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T17:30:13.552Z"
+              "WhenOpened": "2024-12-21T09:20:19.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Index.cshtml.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAAAP4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T07:19:04.184Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:13:31.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T07:49:51.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Index.cshtml",
@@ -457,247 +326,357 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAiAAAA",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T09:20:19.111Z"
+              "WhenOpened": "2024-12-21T17:30:13.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Create.cshtml.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Create.cshtml.cs",
               "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Create.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwD4AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T17:30:23.729Z"
+              "WhenOpened": "2024-12-21T17:30:23.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAKAAAA",
+              "DocumentIndex": 12,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwGYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T17:31:05.838Z"
+              "WhenOpened": "2024-12-22T09:59:37.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Details.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T07:47:13.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAG4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T09:13:08.748Z"
+              "WhenOpened": "2024-12-22T09:58:29.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T17:31:14.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Order.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:10:45.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderItem.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:11:22.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA8AAAA",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Edit.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T09:14:05.579Z"
+              "WhenOpened": "2024-12-21T07:47:41.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Program.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Program.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Program.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:14:20.751Z"
+              "WhenOpened": "2024-12-21T07:14:18.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Index.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Index.cshtml",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAcwKMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T07:47:23.858Z"
+              "WhenOpened": "2024-12-21T07:18:58.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Login.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Index.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T07:28:42.409Z"
+              "WhenOpened": "2024-12-21T09:13:31.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "PartialViewResult.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Helpers\\PartialViewResult.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Helpers\\PartialViewResult.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Helpers\\PartialViewResult.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Helpers\\PartialViewResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Index.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T10:03:55.687Z"
+              "WhenOpened": "2024-12-22T09:58:38.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 15,
+              "Title": "orders.css",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\css\\orders.css",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\css\\orders.css",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\css\\orders.css",
+              "RelativeToolTip": "quanlisieuthimn\\css\\orders.css",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-13T11:18:32.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Edit.cshtml.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Edit.cshtml.cs",
               "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Edit.cshtml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwD4AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T07:50:39.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T10:03:00.044Z"
+              "DocumentIndex": 13,
+              "Title": "quanlisieuthimn.styles.css",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\css\\quanlisieuthimn.styles.css",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\css\\quanlisieuthimn.styles.css",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\css\\quanlisieuthimn.styles.css",
+              "RelativeToolTip": "quanlisieuthimn\\css\\quanlisieuthimn.styles.css",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAIwJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-13T10:41:11.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Login.cshtml",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Login.cshtml",
               "RelativeToolTip": "quanlisieuthimn\\Pages\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-21T07:28:36.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CreateOrderRequest.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\CreateOrderRequest.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\CreateOrderRequest.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\CreateOrderRequest.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\CreateOrderRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:12:17.101Z"
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-13T10:42:16.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T07:51:15.946Z"
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T09:14:05.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 17,
+              "Title": "OrderItemsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\OrderItemsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T10:00:42.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Details.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T07:47:13.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Details.cshtml.cs",
               "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Details.cshtml.cs",
               "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Details.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwB4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T07:48:47.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Product.cs",
-              "RelativeToolTip": "quanlisieuthimn\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T07:17:53.596Z"
+              "WhenOpened": "2024-12-21T07:28:42.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 20,
+              "Title": "Products.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Products.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:59:44.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderDetailsResponse.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderDetailsResponse.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderDetailsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:22:42.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Details.cshtml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:14:20.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BusinessAnalysis.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T15:31:35.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BusinessAnalysis.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\BusinessAnalysis.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:31:43.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BusinessAnalysisResult.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\BusinessAnalysisResult.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\BusinessAnalysisResult.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\BusinessAnalysisResult.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\BusinessAnalysisResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:32:09.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T17:31:05.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T10:00:02.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T09:59:57.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Delete.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T07:51:15.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Delete.cshtml",
@@ -709,7 +688,223 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Details.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Details.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T12:27:32.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Reports\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Reports\\Details.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Reports\\Details.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:27:39.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T10:03:00.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Edit.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:31:14.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T10:44:05.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Order.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:10:45.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PartialViewResult.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Helpers\\PartialViewResult.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Helpers\\PartialViewResult.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Helpers\\PartialViewResult.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Helpers\\PartialViewResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:03:55.687Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T07:47:23.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Products\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T07:49:51.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Category.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:48:37.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Pages\\Orders\\Delete.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowB8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:31:43.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\Product.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T07:17:53.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrderReportRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReportRequest.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderReportRequest.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReportRequest.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderReportRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:56:56.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductReportRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReportRequest.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\ProductReportRequest.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReportRequest.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\ProductReportRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:57:26.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductReport.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReport.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\ProductReport.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\ProductReport.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\ProductReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:56:23.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrderReport.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReport.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderReport.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderReport.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:55:57.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\OrderItem.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:11:22.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "quanlisieuthimn\\Models\\CreateOrderRequest.cs",
+              "ToolTip": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\Models\\CreateOrderRequest.cs",
+              "RelativeToolTip": "quanlisieuthimn\\Models\\CreateOrderRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:12:17.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "quanlisieuthimn.csproj",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\quanlisieuthimn.csproj",
               "RelativeDocumentMoniker": "quanlisieuthimn\\quanlisieuthimn.csproj",
@@ -721,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PCs\\source\\repos\\quanlisieuthimn\\quanlisieuthimn\\appsettings.json",
               "RelativeDocumentMoniker": "quanlisieuthimn\\appsettings.json",

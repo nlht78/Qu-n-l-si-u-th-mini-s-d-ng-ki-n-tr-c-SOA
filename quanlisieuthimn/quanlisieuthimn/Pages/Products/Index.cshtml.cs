@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
 using quanlisieuthimn.Models;
@@ -22,6 +23,8 @@ namespace quanlisieuthimn.Pages.Products
         public List<Order> Orders { get; set; } = new List<Order>();
         public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
         public int? SelectedOrderId { get; set; }
+        public List<Category> Categories { get; set; } = new List<Category>(); // Danh sách loại sản phẩm
+        public int? SelectedCategoryId { get; set; } // ID loại sản phẩm được chọn
 
         public decimal SelectedOrderTotal { get; set; }
 
@@ -29,16 +32,30 @@ namespace quanlisieuthimn.Pages.Products
         [BindProperty]
         public int? SelectedProductId { get; set; }
 
-        public async Task OnGetAsync(int? orderId = null)
+        public async Task OnGetAsync(int? orderId = null, int? categoryId = null)
         {
             var client = _httpClientFactory.CreateClient("OrderService");
             string token = HttpContext.Session.GetString("JWToken");
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            // Lấy danh sách sản phẩm
+            // Lưu trạng thái đơn hàng và loại sản phẩm được chọn
+            SelectedOrderId = orderId;
+            SelectedCategoryId = categoryId;
+
+            // Lấy danh sách loại sản phẩm
+            var categoryClient = _httpClientFactory.CreateClient("ProductService");
+            categoryClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+            var categoryResponse = await categoryClient.GetAsync("/categories");
+            if (categoryResponse.IsSuccessStatusCode)
+            {
+                var categoryContent = await categoryResponse.Content.ReadAsStringAsync();
+                Categories = JsonConvert.DeserializeObject<List<Category>>(categoryContent);
+            }
+
+            // Lấy danh sách sản phẩm (lọc theo loại sản phẩm nếu có)
             var productClient = _httpClientFactory.CreateClient("ProductService");
             productClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
-            var productResponse = await productClient.GetAsync("/products");
+            var productResponse = await productClient.GetAsync(categoryId.HasValue ? $"/products/bycategory/{categoryId.Value}" : "/products");
             if (productResponse.IsSuccessStatusCode)
             {
                 var productContent = await productResponse.Content.ReadAsStringAsync();
@@ -53,12 +70,9 @@ namespace quanlisieuthimn.Pages.Products
                 Orders = JsonConvert.DeserializeObject<List<Order>>(orderContent);
             }
 
-            // Kiểm tra orderId trước khi sử dụng
+            // Lấy chi tiết đơn hàng nếu có orderId
             if (orderId.HasValue)
             {
-                SelectedOrderId = orderId;
-
-                // Lấy chi tiết sản phẩm trong đơn hàng
                 var orderItemsResponse = await client.GetAsync($"/order_items?orderId={orderId.Value}");
                 if (orderItemsResponse.IsSuccessStatusCode)
                 {

@@ -1,49 +1,137 @@
+/* _content/quanlisieuthimn/Pages/Orders/Index.cshtml.rz.scp.css */
+body[b-k7xms0zufw]{
+
+}
+.orders-container[b-k7xms0zufw] {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-title[b-k7xms0zufw] {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.action-buttons[b-k7xms0zufw] {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.table[b-k7xms0zufw] {
+    margin-top: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .table thead[b-k7xms0zufw] {
+        background-color: #343a40;
+        color: #fff;
+    }
+
+    .table th[b-k7xms0zufw], .table td[b-k7xms0zufw] {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .table td[b-k7xms0zufw] {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+.table-responsive[b-k7xms0zufw] {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.badge[b-k7xms0zufw] {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.badge-pending[b-k7xms0zufw] {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.badge-completed[b-k7xms0zufw] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.badge-cancelled[b-k7xms0zufw] {
+    background-color: #dc3545;
+    color: #fff;
+}
 /* _content/quanlisieuthimn/Pages/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-basqf0ihnk] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/* Đặt nền cho toàn bộ trang */
+body[b-basqf0ihnk] {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
 }
 
-a[b-basqf0ihnk] {
-  color: #0077cc;
+/* Tùy chỉnh header */
+header[b-basqf0ihnk] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
 }
 
-.btn-primary[b-basqf0ihnk] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    header .navbar-brand[b-basqf0ihnk] {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+/* Menu navigation */
+nav.navbar[b-basqf0ihnk] {
+    background-color: #0056b3;
 }
 
-.nav-pills .nav-link.active[b-basqf0ihnk], .nav-pills .show > .nav-link[b-basqf0ihnk] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+nav a.nav-link[b-basqf0ihnk] {
+    color: #ffffff;
+    margin-right: 15px;
 }
 
-.border-top[b-basqf0ihnk] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-basqf0ihnk] {
-  border-bottom: 1px solid #e5e5e5;
+    nav a.nav-link:hover[b-basqf0ihnk] {
+        color: #ffdd57;
+    }
+
+/* Footer */
+footer[b-basqf0ihnk] {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
 }
 
-.box-shadow[b-basqf0ihnk] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    footer a[b-basqf0ihnk] {
+        color: #ffdd57;
+    }
+
+/* Header */
+header[b-basqf0ihnk] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button.accept-policy[b-basqf0ihnk] {
-  font-size: 1rem;
-  line-height: inherit;
+/* Footer */
+footer[b-basqf0ihnk] {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
 }
 
-.footer[b-basqf0ihnk] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+/* Navbar links */
+.navbar-nav .nav-link[b-basqf0ihnk] {
+    font-weight: bold;
+    color: #fff !important;
 }
+
+    .navbar-nav .nav-link:hover[b-basqf0ihnk] {
+        color: #ffd700 !important;
+    }

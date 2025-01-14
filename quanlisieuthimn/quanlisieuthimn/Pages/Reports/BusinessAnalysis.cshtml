@@ -1,0 +1,82 @@
+﻿@page
+@model quanlisieuthimn.Pages.Reports.BusinessAnalysisModel
+
+@{
+    ViewData["Title"] = "Phân Tích Doanh Thu Kinh Doanh";
+}
+
+<div class="business-analysis-container">
+    <h2>Phân Tích Doanh Thu Kinh Doanh</h2>
+
+    <div class="analysis-summary">
+        <h3>Tóm Tắt</h3>
+        <ul>
+            <li><strong>Tổng Doanh Thu:</strong> @Model.Analysis.TongDoanhThu.ToString("C")</li>
+            <li><strong>Tổng Chi Phí:</strong> @Model.Analysis.TongChiPhi.ToString("C")</li>
+            <li><strong>Tổng Lợi Nhuận:</strong> @Model.Analysis.TongLoiNhuan.ToString("C")</li>
+            <li><strong>Tổng Số Sản Phẩm:</strong> @Model.Analysis.TongSoSanPham</li>
+            <li><strong>Tổng Số Lượng Bán:</strong> @Model.Analysis.TongSoLuongBan</li>
+            <li><strong>Doanh Thu Trung Bình Mỗi Sản Phẩm:</strong> @Model.Analysis.DoanhThuTrungBinhMoiSanPham.ToString("C")</li>
+            <li><strong>Lợi Nhuận Trung Bình Mỗi Sản Phẩm:</strong> @Model.Analysis.LoiNhuanTrungBinhMoiSanPham.ToString("C")</li>
+        </ul>
+    </div>
+
+    <div class="chart-container">
+        <h3>Biểu Đồ Phân Tích</h3>
+        <canvas id="business-analysis-chart" style="width: 100%; height: 400px;"></canvas>
+    </div>
+
+
+    <a href="/Reports" class="btn btn-secondary">Quay lại Báo Cáo</a>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Dữ liệu từ Model
+        const chartData = {
+            labels: ['Doanh Thu', 'Chi Phí', 'Lợi Nhuận'],
+            datasets: [{
+                label: 'Phân Tích Doanh Thu',
+                data: [
+        @Model.Analysis.TongDoanhThu,
+        @Model.Analysis.TongChiPhi,
+        @Model.Analysis.TongLoiNhuan
+                        ],
+                backgroundColor: [
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        console.log("Chart Data:", chartData); // Debug dữ liệu truyền vào
+
+        // Cấu hình biểu đồ
+        const ctx = document.getElementById('business-analysis-chart').getContext('2d');
+        const businessAnalysisChart = new Chart(ctx, {
+            type: 'bar',
+            data: chartData,
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Phân Tích Doanh Thu Kinh Doanh'
+                    }
+                }
+            }
+        });
+    </script>
+}
+

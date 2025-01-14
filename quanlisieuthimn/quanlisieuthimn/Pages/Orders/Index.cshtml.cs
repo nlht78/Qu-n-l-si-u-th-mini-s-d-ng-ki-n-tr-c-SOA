@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 using Newtonsoft.Json;
 using quanlisieuthimn.Models;
@@ -18,7 +18,16 @@ namespace quanlisieuthimn.Pages.Orders
         }
 
         public List<Order> Orders { get; set; } = new List<Order>();
-
+        public string GetStatusClass(string status)
+        {
+            return status.ToLower() switch
+            {
+                "pending" => "badge-pending",
+                "completed" => "badge-completed",
+                "cancelled" => "badge-cancelled",
+                _ => "badge-secondary"
+            };
+        }
         public async Task OnGetAsync()
         {
             var client = _httpClientFactory.CreateClient("OrderService");

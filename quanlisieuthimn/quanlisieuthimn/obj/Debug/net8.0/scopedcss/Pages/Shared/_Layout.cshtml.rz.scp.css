@@ -1,48 +1,65 @@
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-basqf0ihnk] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/* Đặt nền cho toàn bộ trang */
+body[b-basqf0ihnk] {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
 }
 
-a[b-basqf0ihnk] {
-  color: #0077cc;
+/* Tùy chỉnh header */
+header[b-basqf0ihnk] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
 }
 
-.btn-primary[b-basqf0ihnk] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    header .navbar-brand[b-basqf0ihnk] {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+/* Menu navigation */
+nav.navbar[b-basqf0ihnk] {
+    background-color: #0056b3;
 }
 
-.nav-pills .nav-link.active[b-basqf0ihnk], .nav-pills .show > .nav-link[b-basqf0ihnk] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+nav a.nav-link[b-basqf0ihnk] {
+    color: #ffffff;
+    margin-right: 15px;
 }
 
-.border-top[b-basqf0ihnk] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-basqf0ihnk] {
-  border-bottom: 1px solid #e5e5e5;
+    nav a.nav-link:hover[b-basqf0ihnk] {
+        color: #ffdd57;
+    }
+
+/* Footer */
+footer[b-basqf0ihnk] {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
 }
 
-.box-shadow[b-basqf0ihnk] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    footer a[b-basqf0ihnk] {
+        color: #ffdd57;
+    }
+
+/* Header */
+header[b-basqf0ihnk] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button.accept-policy[b-basqf0ihnk] {
-  font-size: 1rem;
-  line-height: inherit;
+/* Footer */
+footer[b-basqf0ihnk] {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
 }
 
-.footer[b-basqf0ihnk] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+/* Navbar links */
+.navbar-nav .nav-link[b-basqf0ihnk] {
+    font-weight: bold;
+    color: #fff !important;
 }
+
+    .navbar-nav .nav-link:hover[b-basqf0ihnk] {
+        color: #ffd700 !important;
+    }

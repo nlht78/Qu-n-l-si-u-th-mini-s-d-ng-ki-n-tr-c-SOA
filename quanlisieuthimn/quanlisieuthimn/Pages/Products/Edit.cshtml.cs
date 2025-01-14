@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
 using Newtonsoft.Json;
 using quanlisieuthimn.Models;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +20,7 @@ namespace quanlisieuthimn.Pages.Products
 
         [BindProperty]
         public Product Product { get; set; }
+        public List<Category> Categories { get; set; } = new List<Category>(); // Danh sách loại sản phẩm
 
         public async Task OnGetAsync(int id)
         {
@@ -27,11 +28,20 @@ namespace quanlisieuthimn.Pages.Products
             string token = HttpContext.Session.GetString("JWToken");
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.GetAsync($"/products/{id}");
-            if (response.IsSuccessStatusCode)
+            // Lấy thông tin sản phẩm
+            var productResponse = await client.GetAsync($"/products/{id}");
+            if (productResponse.IsSuccessStatusCode)
             {
-                var content = await response.Content.ReadAsStringAsync();
-                Product = JsonConvert.DeserializeObject<Product>(content);
+                var productContent = await productResponse.Content.ReadAsStringAsync();
+                Product = JsonConvert.DeserializeObject<Product>(productContent);
+            }
+
+            // Lấy danh sách loại sản phẩm
+            var categoryResponse = await client.GetAsync("/categories");
+            if (categoryResponse.IsSuccessStatusCode)
+            {
+                var categoryContent = await categoryResponse.Content.ReadAsStringAsync();
+                Categories = JsonConvert.DeserializeObject<List<Category>>(categoryContent);
             }
         }
 

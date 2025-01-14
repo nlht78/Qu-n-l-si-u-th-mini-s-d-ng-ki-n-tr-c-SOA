@@ -40,3 +40,4 @@ C:\Users\PCs\source\repos\quanlisieuthimn\quanlisieuthimn\obj\Debug\net8.0\refin
 C:\Users\PCs\source\repos\quanlisieuthimn\quanlisieuthimn\obj\Debug\net8.0\quanlisieuthimn.pdb
 C:\Users\PCs\source\repos\quanlisieuthimn\quanlisieuthimn\obj\Debug\net8.0\quanlisieuthimn.genruntimeconfig.cache
 C:\Users\PCs\source\repos\quanlisieuthimn\quanlisieuthimn\obj\Debug\net8.0\ref\quanlisieuthimn.dll
+C:\Users\PCs\source\repos\quanlisieuthimn\quanlisieuthimn\obj\Debug\net8.0\scopedcss\Pages\Orders\Index.cshtml.rz.scp.css
